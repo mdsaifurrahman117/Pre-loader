@@ -70,7 +70,7 @@ footer {
             left: 0;
             animation-name: preloader;
             animation-duration: 2s;
-            animation-delay: 4s;
+            animation-delay: 4.5s;
             animation-timing-function: ease-in-out;
             animation-fill-mode: forwards;
 }
@@ -104,4 +104,44 @@ footer {
                         background: #454545;
             }
 
+}
+
+@media (min-width: 375px) {
+            .preload-title {
+                        margin-top: 65%;
+            }
+            .load-bar {
+                        margin-left: 10%;
+            }
+            @keyframes load-bar {
+                        0% {
+                                    width: 0;
+                                    background: #454545;
+                        }
+                        100% {
+                                    width: 300px;
+                                    background: #454545;
+                        }
+            
+            }
+}
+
+@media (min-width: 768px) {
+            .preload-title {
+                        margin-top: 25%;
+            }
+            .load-bar {
+                        margin-left: 16%;
+            }
+            @keyframes load-bar {
+                        0% {
+                                    width: 0;
+                                    background: #454545;
+                        }
+                        100% {
+                                    width: 525px;
+                                    background: #454545;
+                        }
+            
+            }
 }
