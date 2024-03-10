@@ -121,11 +121,14 @@ footer {
 /* desktop responsive */
 @media (min-width: 768px) {
             .preloader-title {
-                        max-width: 524px;
+                        max-width: 626px;
+            }
+            .preloader-title h1 {
+                        width: 100%;
             }
             .load-bar {
-                        max-width: 524px;
-                        left: 16%;
+                        max-width: 626px;
+                        left: 27%;
                         right: 0;
                         bottom: 0;
             }
@@ -135,7 +138,7 @@ footer {
                                     background-color: #494949;
                         }
                         100% {
-                                    max-width: 524px;
+                                    max-width: 626px;
                                     background-color: #494949;
                         }
             }
